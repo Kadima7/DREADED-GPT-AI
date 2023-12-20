@@ -19,7 +19,7 @@ const { Configuration, OpenAIApi } = require("openai");
 let setting = process.env.AI; 
 const { smsg, formatp, tanggal, formatDate, getTime,  sleep, clockString, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/dreadfunc');
 const { exec, spawn, execSync } = require("child_process");
-module.exports = dreaded = async (client, m, chatUpdate, store) => {
+module.exports = 𝐋𝐎𝐍𝐄𝐑 𝐀𝐈  = async (client, m, chatUpdate, store) => {
   try {
     var body =
       m.mtype === "conversation"
@@ -557,7 +557,7 @@ client.sendMessage(m.chat, {
                                 title: `𝐋𝐎𝐍𝐄𝐑 𝐀𝐈 𝐁𝐎𝐓`,
                                 body: `A simple WhatsApp bot.`,
                                 thumbnail: fs.readFileSync('./IMG-20231220-WA0004.jpg'),
-                                sourceUrl: `https://github.com/Fortunatusmokaya/DREADED-GPT-AI`,
+                                sourceUrl: `https://github.com/Kadima7/DREADED-GPT-AI`,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
