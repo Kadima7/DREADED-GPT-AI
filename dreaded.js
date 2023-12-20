@@ -48,7 +48,7 @@ const Heroku = require("heroku-client");
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'dreaded BOT';
+const botname = process.env.BOTNAME || '𝐋𝐎𝐍𝐄𝐑 𝐀𝐈 𝐁𝐎𝐓';
 const antibot = process.env.ANTIBOT || 'TRUE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
@@ -80,11 +80,11 @@ const antibot = process.env.ANTIBOT || 'TRUE';
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR || 'fortunatus';
+    const author = process.env.STICKER_AUTHOR || '©️⇆࿅𝐈𝐀𝐍࿅⇆↯©️';
 const maindev = '254114018035';
 const maindev2 = maindev.split(",");
 
-    const packname = process.env.STICKER_PACKNAME || 'dreaded';
+    const packname = process.env.STICKER_PACKNAME || '𝐋𝐎𝐍𝐄𝐑 𝐀𝐈 𝐁𝐎𝐓';
 const dev = process.env.DEV || '254114018035'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
@@ -93,7 +93,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
    const bad = process.env.BAD_WORD || 'fuck';
     const autoread = process.env.AUTOREAD || 'TRUE';
     const badword = bad.split(",");
-    const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
+    const Owner =©️⇆࿅𝐈𝐀𝐍࿅⇆↯©️ .map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
     // Group
     const groupMetadata = m.isGroup ? await client.groupMetadata(m.chat).catch((e) => {}) : "";
     const groupName = m.isGroup ? groupMetadata.subject : "";
@@ -449,7 +449,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
-let cap = `┌───═[ ${botname} ]═──▸
+let cap = `┌───═[ ${𝐋𝐎𝐍𝐄𝐑 𝐀𝐈 𝐁𝐎𝐓} ]═──▸
 
 ▯ Hello ${m.pushName}
 This is a simple WhatsApp Bot.
@@ -505,7 +505,7 @@ Below is my command list.
 ▮➣Compile-c
 ▮➣Compile-c++
 ▮➣Script
-▮➣Owner
+▮➣Owner:⇆࿅𝐈𝐀𝐍࿅⇆↯
 ▮➣Vars
 ▮➣Mail
 ▮➣Inbox
@@ -537,7 +537,7 @@ Below is my command list.
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./menu.mp4'),
+                        video: fs.readFileSync('./VID-20231219-WA0052.mp4'),
                         caption: cap,
                         gifPlayback: true
                     }, {
@@ -554,9 +554,9 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `DREADED BOT`,
+                                title: `𝐋𝐎𝐍𝐄𝐑 𝐀𝐈 𝐁𝐎𝐓`,
                                 body: `A simple WhatsApp bot.`,
-                                thumbnail: fs.readFileSync('./dreaded.jpg'),
+                                thumbnail: fs.readFileSync('./IMG-20231220-WA0004.jpg'),
                                 sourceUrl: `https://github.com/Fortunatusmokaya/DREADED-GPT-AI`,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -725,7 +725,7 @@ const rel = await quote(xf, pushname, pppuser)
                 
                 client.sendImageAsSticker(m.chat, rel.result, m, {
                     packname: pushname,
-                    author: `DreadedBot`
+                    author: `𝐋𝐎𝐍𝐄𝐑 𝐀𝐈 𝐁𝐎𝐓`
                 })
 
 } catch (errr) { 
